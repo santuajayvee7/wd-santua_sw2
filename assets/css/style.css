@@ -50,7 +50,7 @@ section {
 }
 
 .hero {
-    background-image: url('https://via.placeholder.com/1200x400');
+    background-image: url('https://land8.com/wp-content/uploads/2017/07/Golden-Cover2.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -58,11 +58,11 @@ section {
     padding: 100px 0;
 }
 
-.latest-news .news-item {
+.latest-projects .projects.item {
     margin-bottom: 20px;
 }
 
-.latest-news img {
+.latest-projects img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
