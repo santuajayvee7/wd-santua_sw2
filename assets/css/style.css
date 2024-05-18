@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #676;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -59,13 +59,16 @@ section {
 }
 
 .latest-projects .projects.item {
-    margin-bottom: 20px;
+    margin-bottom: 20%;
+    
 }
 
 .latest-projects img {
+    padding: 10%
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    
 }
 
 .drivers ul {
@@ -85,7 +88,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #;
     color: #fff;
     text-align: center;
     padding: 20px;
