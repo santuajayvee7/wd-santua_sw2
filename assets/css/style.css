@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -14,7 +12,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
@@ -26,10 +24,12 @@ header {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
@@ -49,7 +49,7 @@ section {
     border-radius: 8px;
 }
 
-.hero {
+.background {
     background-image: url('https://land8.com/wp-content/uploads/2017/07/Golden-Cover2.jpg');
     background-size: cover;
     background-position: center;
@@ -58,38 +58,53 @@ section {
     padding: 100px 0;
 }
 
-.latest-projects .projects.item {
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+   
+    margin-bottom: 20% 0 10px;
+
+}
+
+
+
+.latest-projects .news-item {
     margin-bottom: 20%;
-    
 }
 
 .latest-projects img {
-    padding: 10%
+    padding: 10%;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    
 }
 
-.drivers ul {
+.experience ul {
     list-style-type: none;
+    padding: 0;
+}
+
+.experience ul li {
+    margin-bottom: 10px;
+}
+
+.hobbies {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.drivers ul li {
-    width: 30%;
-}
-
-.drivers ul li img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+.hobbies-item {
+    padding bottom: 20px;
 }
 
 footer {
-    background-color: #;
+    background-color: #676;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+
+
