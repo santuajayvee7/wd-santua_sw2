@@ -1,110 +1,121 @@
-* {
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;]
+    box-shadow: 0 35px 55px rgba(0,0,0.1)
+
 }
 
-header {
-    background-color: #676;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+
+.container .left_Side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-.background {
-    background-image: url('https://land8.com/wp-content/uploads/2017/07/Golden-Cover2.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.education {
+.profileText {
+    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-.education-item {
-   
-    margin-bottom: 20% 0 10px;
-
+.profileText .imgBox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    ;
 }
 
-
-
-.latest-projects .news-item {
-    margin-bottom: 20%;
+.profileText .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.latest-projects img {
-    padding: 10%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+.profileText h2 {
+    color #fff;
+    font-style: 1.5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.4px;
 }
 
-.experience ul {
-    list-style-type: none;
-    padding: 0;
+.profileText h2 span {
+    font-size: 0.5px;
+    font-weight: 200px;
 }
 
-.experience ul li {
-    margin-bottom: 10px;
+.contactInfo {
+    padding-top: 40px;
 }
 
-.hobbies {
-    display: flex;
-    flex-direction: column;
-}
-
-.hobbies-item {
-    padding bottom: 20px;
-}
-
-footer {
-    background-color: #676;
+.title {
     color: #fff;
-    text-align: center;
-    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight; 600px;
+}
+
+
+
+
+
+
+
 
 
