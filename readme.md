@@ -6,7 +6,6 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <a href="https://app.daily.dev/jayveesantua"><img src="https://api.daily.dev/devcards/v2/qAlE3oQlBwFozS8ezZLXi.png?r=lgp" width="356" alt="jayveesantua's Dev Card"/></a>
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Simple Resume</h3>
