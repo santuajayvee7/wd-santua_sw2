@@ -23,7 +23,7 @@ body {
     background: #fff;
     margin: 50px;
     display:grid;
-    grid-template-columns: 1fr 2fr;]
+    grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0.1)
 
 }
@@ -34,6 +34,7 @@ body {
     background: #003147;
     padding: 40px;
 }
+
 
 .profileText {
     position: relative;
@@ -63,7 +64,7 @@ body {
 }
 
 .profileText h2 {
-    color #fff;
+    color:#003147 #fff;
     font-style: 1.5px;
     margin-top: 20px;
     text-transform: uppercase;
@@ -108,8 +109,57 @@ body {
 
 .contactInfo ul li span {
     color: #fff;
-    font-weight; 600px;
+    font-weight: 600px;
 }
+
+h2 {
+    color: #fff;
+    position: relative;
+
+}
+
+
+.education li { 
+    margin-bottom: 10px;
+    
+}
+
+.education h5 {
+    color: #03a9f4;
+    font-weight: 600px;
+}
+
+.education h4 {
+    color: #fff;
+    font-weight: 3000;
+}
+
+.education h6 {
+    color: gray;
+    font-weight: 300;
+}
+
+.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: gray;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.language .percent .div {
+}
+
+
+
+
+
+
+
+
+
 
 
 
