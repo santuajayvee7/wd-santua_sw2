@@ -1,10 +1,8 @@
-
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 body {
@@ -22,19 +20,16 @@ body {
     min-height: 1000px;
     background: #fff;
     margin: 50px;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0.1)
-
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
-
-.container .left_Side {
+.left_Side {
     position: relative;
     background: #003147;
     padding: 40px;
 }
-
 
 .profileText {
     position: relative;
@@ -42,19 +37,18 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profileText .imgBox {
+.imgBox {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    ;
 }
 
-.profileText .imgBox img {
+.imgBox img {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,17 +58,17 @@ body {
 }
 
 .profileText h2 {
-    color:#003147 #fff;
-    font-style: 1.5px;
+    color: #fff;
+    font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 1.4px;
+    line-height: 1.4em;
 }
 
 .profileText h2 span {
-    font-size: 0.5px;
-    font-weight: 200px;
+    font-size: 0.5em;
+    font-weight: 200;
 }
 
 .contactInfo {
@@ -84,7 +78,7 @@ body {
 .title {
     color: #fff;
     text-transform: uppercase;
-    font-weight: 600px;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
@@ -100,7 +94,7 @@ body {
     cursor: pointer;
 }
 
-.contactInfo ul li .icon {
+.icon {
     display: inline-block;
     width: 30px;
     font-size: 18px;
@@ -109,34 +103,35 @@ body {
 
 .contactInfo ul li span {
     color: #fff;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 h2 {
-    color: #fff;
-    position: relative;
-
+    color: white;
 }
 
-
-.education li { 
+.education li {
     margin-bottom: 10px;
-    
+    color: white;
 }
 
 .education h5 {
     color: #03a9f4;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 .education h4 {
     color: #fff;
-    font-weight: 3000;
+    font-weight: 300;
 }
 
 .education h6 {
     color: gray;
     font-weight: 300;
+}
+
+.language li {
+    color: white;
 }
 
 .language .percent {
@@ -146,26 +141,100 @@ h2 {
     background: gray;
     display: block;
     margin-top: 5px;
+}
+
+.language .percent div {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: lightblue;
+}
+
+.right_Side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin: 20px;
+}
+
+.about:last-child {
+    margin: 0;
+}
+
+
+.prof {
+    color:#003146;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgb(54, 53, 53);
+    margin-bottom: 5px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
 
 }
 
-.language .percent .div {
+.about .box .year {
+    min-width: 150px;
+
 }
 
+.about .box .year h5 {
+    text-transform: uppercase;
+    color: #848c90;
 
+}
 
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: rgb(0, 49, 70);
+    font-size: 16px;
+}
 
+.interest {
 
+    color: #003146;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 
+}
 
+.interest .box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.interest .box h4 {
+    text-transform: uppercase;
+    color: #848c89;
+    font-weight: 500;
 
+}
 
+.interest .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0
 
-
-
-
+}
 
 
 
